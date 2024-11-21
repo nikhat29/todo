@@ -1,110 +1,110 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    font-family: "Poppins", sans-serif;;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /*Body & Container css */
-body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d3d3d3;
-    min-height:100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+  min-height: 100vh;
 }
 .container {
-    background-color: #5158BB;
-    width: 500px;
-    border-radius: 5px;
-    padding: 25px;
+  background-color: #5158bb;
+  width: 500px;
+  border-radius: 5px;
+  padding: 25px;
 }
-.container input[type = text] {
-    width: 100%;
-    padding: 10px 15px;
-    flex: 1;
-    border: none;
-    outline: none;
-    background: transparent;
-    font-size: 20px;
+.container input[type="text"] {
+  width: 100%;
+  padding: 10px 15px;
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 20px;
 }
 h1 {
-    color: #fff;
+  color: #fff;
 }
 
 .to-do-header {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 /* Input Box and Add Button  */
 .todo-body {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #fff;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 10px;
 }
 .todo-body #addBtn {
-    background: #EB4B98;
-    border-radius: 0px 10px 10px 0px;
-    padding: 10px;
-    width: 100px;
-    color: #fff;
-    border: none;
-    font-size: 20px;
-    margin: 0;
-    cursor: pointer;
+  background: #eb4b98;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  width: 100px;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  margin: 0;
+  cursor: pointer;
 }
 
 /* Task Lists */
 ul li {
-    border: 1px solid #d3d3d3;
-    width: 100%;
-    padding: 10px 15px;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    list-style: none;
-    border-radius: 10px;
-    background: #02394A;
-    color: #fff;
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  list-style: none;
+  border-radius: 10px;
+  background: #02394a;
+  color: #fff;
 }
 
 ul.todoList {
-    list-style: none;
-    margin: 20px 0;
+  list-style: none;
+  margin: 20px 0;
 }
 li:hover {
-    background: #041B66;
-    cursor: pointer;
+  background: #041b66;
+  cursor: pointer;
 }
 
 input.checkbox {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 .taskItem {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 .task {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
 }
 .icons {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
 }
-.completed{
-    text-decoration: line-through;
-    color: teal;
+.completed {
+  text-decoration: line-through;
+  color: teal;
 }
